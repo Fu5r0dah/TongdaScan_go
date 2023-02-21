@@ -38,9 +38,9 @@
 
  ## 漏洞利用
  ```
- TongdaScan_go exp -u http://1.1.1.1 -i Td01
+ TongdaScan_go exp -u http://1.1.1.1 -i Td03
  ```
- ![image](https://raw.githubusercontent.com/Fu5r0dah/Project_imgs/main/imgs/Snipaste_2023-02-15_20-10-26.png)
+![image](https://raw.githubusercontent.com/Fu5r0dah/Project_imgs/main/imgs/Snipaste_2023-02-21_21-20-39.png)
 
  ## 代理
  ```

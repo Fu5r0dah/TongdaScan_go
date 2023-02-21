@@ -31,7 +31,7 @@ func (*Td03) Exploit(targetUrl string) {
 		return
 	}
 	if runResult {
-		color.Green("[Td03] 存在action_upload.php 任意文件上传\n已上传哥斯拉马\n密码pass0123\n密钥key\n加密器PHP_XOR_BASE64\nWebshel地址：%s", vulnUrl)
+		color.Green("[Td03] 存在action_upload.php 任意文件上传\n已上传哥斯拉马\n密码pass0123\n密钥key\n加密器PHP_XOR_BASE64\nWebshell地址：%s", vulnUrl)
 	} else {
 		color.White("[!]漏洞利用无返回结果")
 	}
